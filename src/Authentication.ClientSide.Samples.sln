@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Authentication.ClientSide.Shared", "Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.shproj", "{78240DFF-3C2D-4A13-8AB8-69ABC868FD83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.Basic", "Authentication.ClientSide.Basic\Authentication.ClientSide.Basic.csproj", "{22EC8DC4-28E0-4252-96AD-DAC386CF3704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Abstractions", "..\..\restapi-client\src\RestApi.Client.Abstractions\RestApi.Client.Abstractions.csproj", "{52070FBD-366C-45B6-BBE2-375B805EEB77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client", "..\..\restapi-client\src\RestApi.Client\RestApi.Client.csproj", "{08A79A4B-14FD-4990-B7B6-58906AAE3F50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.Basic", "..\..\restapi-client\src\RestApi.Client.Authentication.Basic\RestApi.Client.Authentication.Basic.csproj", "{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.Json", "..\..\restapi-client\src\RestApi.Client.ContentSerializer.Json\RestApi.Client.ContentSerializer.Json.csproj", "{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.PlainText", "..\..\restapi-client\src\RestApi.Client.ContentSerializer.PlainText\RestApi.Client.ContentSerializer.PlainText.csproj", "{C1172A50-66E8-41DF-AE30-02E7431E080A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}
+	EndGlobalSection
+EndGlobal
