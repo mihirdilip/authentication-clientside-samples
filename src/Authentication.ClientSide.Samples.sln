@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSeria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.PlainText", "..\..\restapi-client\src\RestApi.Client.ContentSerializer.PlainText\RestApi.Client.ContentSerializer.PlainText.csproj", "{C1172A50-66E8-41DF-AE30-02E7431E080A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
@@ -53,6 +55,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52070FBD-366C-45B6-BBE2-375B805EEB77} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{C1172A50-66E8-41DF-AE30-02E7431E080A} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}
