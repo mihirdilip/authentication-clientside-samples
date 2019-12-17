@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
-using RestApi.Client.Authentication;
+﻿using RestApi.Client.Authentication;
+using System.Threading.Tasks;
 
-namespace Authentication.ClientSide.Basic
+namespace Authentication.ClientSide
 {
 	internal class BasicAuthenticationProvider : IBasicAuthenticationProvider
 	{

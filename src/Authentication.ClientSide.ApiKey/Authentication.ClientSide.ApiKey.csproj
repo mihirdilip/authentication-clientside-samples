@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>Exe</OutputType>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Authentication.ClientSide</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\restapi-client\src\RestApi.Client.Authentication.ApiKey\RestApi.Client.Authentication.ApiKey.csproj" />
+    <ProjectReference Include="..\..\..\restapi-client\src\RestApi.Client\RestApi.Client.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />
+
+</Project>

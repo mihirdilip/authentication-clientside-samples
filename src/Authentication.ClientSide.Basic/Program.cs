@@ -3,7 +3,7 @@ using RestApi.Client.Authentication;
 using System;
 using System.Threading.Tasks;
 
-namespace Authentication.ClientSide.Basic
+namespace Authentication.ClientSide
 {
 	class Program
 	{

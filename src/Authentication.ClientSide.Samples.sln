@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSeria
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.ClientSide.ApiKey", "Authentication.ClientSide.ApiKey\Authentication.ClientSide.ApiKey.csproj", "{7F6FF359-8627-452F-BBEA-5B2B439CFB98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.ApiKey", "..\..\restapi-client\src\RestApi.Client.Authentication.ApiKey\RestApi.Client.Authentication.ApiKey.csproj", "{A2FF38B0-AD39-4684-A0F6-51A690349AEC}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
@@ -52,6 +56,14 @@ Global
 		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1172A50-66E8-41DF-AE30-02E7431E080A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FF38B0-AD39-4684-A0F6-51A690349AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FF38B0-AD39-4684-A0F6-51A690349AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FF38B0-AD39-4684-A0F6-51A690349AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FF38B0-AD39-4684-A0F6-51A690349AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +74,7 @@ Global
 		{1EE5C774-71BB-4FAF-A5DB-B1F6F5E2D44D} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
 		{F05B4FCF-E20E-4885-B4EE-BCDA2A55FFAA} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
 		{C1172A50-66E8-41DF-AE30-02E7431E080A} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{A2FF38B0-AD39-4684-A0F6-51A690349AEC} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}

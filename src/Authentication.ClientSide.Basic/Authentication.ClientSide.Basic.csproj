@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Authentication.ClientSide</RootNamespace>
   </PropertyGroup>
 
   <Import Project="..\Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />
