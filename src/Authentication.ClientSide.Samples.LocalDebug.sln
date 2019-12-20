@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Authentication.ClientSide.Shared", "Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.shproj", "{78240DFF-3C2D-4A13-8AB8-69ABC868FD83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.Basic", "Authentication.ClientSide.Basic\Authentication.ClientSide.Basic.csproj", "{22EC8DC4-28E0-4252-96AD-DAC386CF3704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Abstractions", "..\..\restapi-client\src\RestApi.Client.Abstractions\RestApi.Client.Abstractions.csproj", "{52070FBD-366C-45B6-BBE2-375B805EEB77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client", "..\..\restapi-client\src\RestApi.Client\RestApi.Client.csproj", "{08A79A4B-14FD-4990-B7B6-58906AAE3F50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.ApiKey", "Authentication.ClientSide.ApiKey\Authentication.ClientSide.ApiKey.csproj", "{7F6FF359-8627-452F-BBEA-5B2B439CFB98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{8357F6AD-1CD4-4A59-B8A4-B59CF595588A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentSerializer", "ContentSerializer", "{31D45366-6A27-4A51-8BFA-8BA0C0063E11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.ApiKey", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.ApiKey\RestApi.Client.Authentication.ApiKey.csproj", "{DEE15D38-FB43-4382-BF4B-C276649535C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.Basic", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.Basic\RestApi.Client.Authentication.Basic.csproj", "{7FD50F19-DC3B-42EF-90A3-34F95157B130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.Json", "..\..\restapi-client\src\ContentSerializer\RestApi.Client.ContentSerializer.Json\RestApi.Client.ContentSerializer.Json.csproj", "{C0A0D76D-2498-4DA7-939A-2745C144BE7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.PlainText", "..\..\restapi-client\src\ContentSerializer\RestApi.Client.ContentSerializer.PlainText\RestApi.Client.ContentSerializer.PlainText.csproj", "{1986594F-1D76-4C58-9024-B6B377D80ABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.ContentSerializer.Xml", "..\..\restapi-client\src\ContentSerializer\RestApi.Client.ContentSerializer.Xml\RestApi.Client.ContentSerializer.Xml.csproj", "{AF54D289-E246-4D4A-B5A4-A4B2606380A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{908A1F7F-BF8C-4265-AEBF-30AC0D28EB24}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Local|Any CPU = Local|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{22EC8DC4-28E0-4252-96AD-DAC386CF3704}.Local|Any CPU.Build.0 = Local|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{52070FBD-366C-45B6-BBE2-375B805EEB77}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{7F6FF359-8627-452F-BBEA-5B2B439CFB98}.Local|Any CPU.Build.0 = Local|Any CPU
+		{DEE15D38-FB43-4382-BF4B-C276649535C9}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE15D38-FB43-4382-BF4B-C276649535C9}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{7FD50F19-DC3B-42EF-90A3-34F95157B130}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD50F19-DC3B-42EF-90A3-34F95157B130}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{C0A0D76D-2498-4DA7-939A-2745C144BE7E}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A0D76D-2498-4DA7-939A-2745C144BE7E}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{1986594F-1D76-4C58-9024-B6B377D80ABE}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{1986594F-1D76-4C58-9024-B6B377D80ABE}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{AF54D289-E246-4D4A-B5A4-A4B2606380A2}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF54D289-E246-4D4A-B5A4-A4B2606380A2}.Local|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52070FBD-366C-45B6-BBE2-375B805EEB77} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{08A79A4B-14FD-4990-B7B6-58906AAE3F50} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{8357F6AD-1CD4-4A59-B8A4-B59CF595588A} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{31D45366-6A27-4A51-8BFA-8BA0C0063E11} = {77C32D79-4E43-4A58-BAF2-D7C1FE96EADC}
+		{DEE15D38-FB43-4382-BF4B-C276649535C9} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
+		{7FD50F19-DC3B-42EF-90A3-34F95157B130} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
+		{C0A0D76D-2498-4DA7-939A-2745C144BE7E} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
+		{1986594F-1D76-4C58-9024-B6B377D80ABE} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
+		{AF54D289-E246-4D4A-B5A4-A4B2606380A2} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}
+	EndGlobalSection
+EndGlobal

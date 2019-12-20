@@ -1,0 +1,36 @@
+<Project>
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<RootNamespace>Authentication.ClientSide</RootNamespace>
+		<Configurations>Debug;Release;Local</Configurations>
+		<!--<Configuration Condition="'$(MSBuildProjectExtension)' == '.csproj'">Debug;Release;Local</Configuration>-->
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Version>2.2.0-preview.1</Version>
+		<Copyright>Copyright (c) 2019 Mihir Dilip</Copyright>
+		<Authors>Mihir Dilip</Authors>
+		<Company>Mihir Dilip</Company>
+		<PackageProjectUrl>https://github.com/mihirdilip/authentication-clientside-samples</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mihirdilip/authentication-clientside-samples</RepositoryUrl>
+		<RepositoryType>GitHub</RepositoryType>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<Import Project="Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />
+	
+</Project>
