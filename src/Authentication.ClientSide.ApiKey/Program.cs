@@ -13,13 +13,12 @@ namespace Authentication.ClientSide
 
 	class Program
 	{
-		private const string BaseUrl = "https://localhost:44354";
 		private const ApiKeyIn ApiKeyIn = ClientSide.ApiKeyIn.Header;
 
 		static async Task Main(string[] args)
 		{
 			var clientBuilder = new RestClientBuilder()
-				.SetBaseAddress(new Uri(BaseUrl));
+				.SetBaseAddress(new Uri(Constants.BaseUrl));
 
 			switch (ApiKeyIn)
 			{

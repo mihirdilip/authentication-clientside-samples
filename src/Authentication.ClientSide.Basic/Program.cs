@@ -7,12 +7,10 @@ namespace Authentication.ClientSide
 {
 	class Program
 	{
-		private const string BaseUrl = "https://localhost:44354";
-
 		static async Task Main(string[] args)
 		{
 			var client = new RestClientBuilder()
-				.SetBaseAddress(new Uri(BaseUrl))
+				.SetBaseAddress(new Uri(Constants.BaseUrl))
 				.AddBasicAuthentication<BasicAuthenticationProvider>()
 				.Build();
 

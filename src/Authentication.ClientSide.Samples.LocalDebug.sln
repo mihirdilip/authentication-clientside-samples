@@ -34,7 +34,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.Bearer", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.Bearer\RestApi.Client.Authentication.Bearer.csproj", "{AA67A486-59C7-41E7-840F-20DAE6EF00FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.OAuth2", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.OAuth2\RestApi.Client.Authentication.OAuth2.csproj", "{1BB988AE-8A8F-4460-A967-1BD96FFDC648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.Bearer", "Authentication.ClientSide.Bearer\Authentication.ClientSide.Bearer.csproj", "{58BC8F90-7162-40E6-9412-277F3D1DFE9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.TokenExtensions", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.TokenExtensions\RestApi.Client.Authentication.TokenExtensions.csproj", "{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.OAuth2", "Authentication.ClientSide.OAuth2\Authentication.ClientSide.OAuth2.csproj", "{8EC2C115-77F4-4EF3-B393-C27763CA9180}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local|Any CPU = Local|Any CPU
 	EndGlobalSection
@@ -57,6 +70,16 @@ Global
 		{1986594F-1D76-4C58-9024-B6B377D80ABE}.Local|Any CPU.Build.0 = Debug|Any CPU
 		{AF54D289-E246-4D4A-B5A4-A4B2606380A2}.Local|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF54D289-E246-4D4A-B5A4-A4B2606380A2}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{AA67A486-59C7-41E7-840F-20DAE6EF00FD}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA67A486-59C7-41E7-840F-20DAE6EF00FD}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{1BB988AE-8A8F-4460-A967-1BD96FFDC648}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB988AE-8A8F-4460-A967-1BD96FFDC648}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{58BC8F90-7162-40E6-9412-277F3D1DFE9C}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{58BC8F90-7162-40E6-9412-277F3D1DFE9C}.Local|Any CPU.Build.0 = Local|Any CPU
+		{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{8EC2C115-77F4-4EF3-B393-C27763CA9180}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{8EC2C115-77F4-4EF3-B393-C27763CA9180}.Local|Any CPU.Build.0 = Local|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +94,9 @@ Global
 		{C0A0D76D-2498-4DA7-939A-2745C144BE7E} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
 		{1986594F-1D76-4C58-9024-B6B377D80ABE} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
 		{AF54D289-E246-4D4A-B5A4-A4B2606380A2} = {31D45366-6A27-4A51-8BFA-8BA0C0063E11}
+		{AA67A486-59C7-41E7-840F-20DAE6EF00FD} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
+		{1BB988AE-8A8F-4460-A967-1BD96FFDC648} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
+		{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}

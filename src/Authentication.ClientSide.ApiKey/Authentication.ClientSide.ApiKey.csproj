@@ -6,8 +6,10 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)'!='Local'">
-		<PackageReference Include="RestApi.Client" Version="2.2.0-preview.1" />
-		<PackageReference Include="RestApi.Client.Authentication.ApiKey" Version="2.2.0-preview.1" />
+		<PackageReference Include="RestApi.Client" Version="$(Version)" />
+		<PackageReference Include="RestApi.Client.Authentication.ApiKey" Version="$(Version)" />
 	</ItemGroup>
+
+	<Import Project="..\Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />
 
 </Project>

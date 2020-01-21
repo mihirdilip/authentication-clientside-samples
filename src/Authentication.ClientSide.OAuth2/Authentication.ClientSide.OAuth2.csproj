@@ -2,12 +2,12 @@
 
 	<ItemGroup Condition="'$(Configuration)'=='Local'">
 		<ProjectReference Include="..\..\..\restapi-client\src\RestApi.Client\RestApi.Client.csproj" />
-		<ProjectReference Include="..\..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.Basic\RestApi.Client.Authentication.Basic.csproj" />
+		<ProjectReference Include="..\..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.OAuth2\RestApi.Client.Authentication.OAuth2.csproj" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)'!='Local'">
 		<PackageReference Include="RestApi.Client" Version="$(Version)" />
-		<PackageReference Include="RestApi.Client.Authentication.Basic" Version="$(Version)" />
+		<PackageReference Include="RestApi.Client.Authentication.OAuth2" Version="$(Version)" />
 	</ItemGroup>
 
 	<Import Project="..\Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />

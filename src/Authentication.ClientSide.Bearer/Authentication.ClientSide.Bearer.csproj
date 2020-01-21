@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup Condition="'$(Configuration)'=='Local'">
+		<ProjectReference Include="..\..\..\restapi-client\src\RestApi.Client\RestApi.Client.csproj" />
+		<ProjectReference Include="..\..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.Bearer\RestApi.Client.Authentication.Bearer.csproj" />
+		<ProjectReference Include="..\..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.TokenExtensions\RestApi.Client.Authentication.TokenExtensions.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(Configuration)'!='Local'">
+		<PackageReference Include="RestApi.Client" Version="$(Version)" />
+		<PackageReference Include="RestApi.Client.Authentication.Bearer" Version="$(Version)" />
+		<PackageReference Include="RestApi.Client.Authentication.TokenExtensions" Version="$(Version)" />
+	</ItemGroup>
+
+	<Import Project="..\Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems" Label="Shared" />
+
+</Project>
