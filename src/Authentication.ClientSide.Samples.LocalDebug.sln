@@ -44,6 +44,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authenticati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.OAuth2", "Authentication.ClientSide.OAuth2\Authentication.ClientSide.OAuth2.csproj", "{8EC2C115-77F4-4EF3-B393-C27763CA9180}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi.Client.Authentication.Windows", "..\..\restapi-client\src\Authentication\RestApi.Client.Authentication.Windows\RestApi.Client.Authentication.Windows.csproj", "{BB13D07E-D4E4-4FB0-B60D-F69B78320372}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.Windows", "Authentication.ClientSide.Windows\Authentication.ClientSide.Windows.csproj", "{71C72476-36E8-417E-A107-2064C096EE80}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
@@ -80,6 +84,10 @@ Global
 		{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8}.Local|Any CPU.Build.0 = Debug|Any CPU
 		{8EC2C115-77F4-4EF3-B393-C27763CA9180}.Local|Any CPU.ActiveCfg = Local|Any CPU
 		{8EC2C115-77F4-4EF3-B393-C27763CA9180}.Local|Any CPU.Build.0 = Local|Any CPU
+		{BB13D07E-D4E4-4FB0-B60D-F69B78320372}.Local|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB13D07E-D4E4-4FB0-B60D-F69B78320372}.Local|Any CPU.Build.0 = Debug|Any CPU
+		{71C72476-36E8-417E-A107-2064C096EE80}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{71C72476-36E8-417E-A107-2064C096EE80}.Local|Any CPU.Build.0 = Local|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +105,7 @@ Global
 		{AA67A486-59C7-41E7-840F-20DAE6EF00FD} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
 		{1BB988AE-8A8F-4460-A967-1BD96FFDC648} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
 		{4A6927F8-CACC-4951-ADA1-A1F7D6C7FAC8} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
+		{BB13D07E-D4E4-4FB0-B60D-F69B78320372} = {8357F6AD-1CD4-4A59-B8A4-B59CF595588A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18AB15A5-53A2-49F4-9348-4599B441BF1C}
