@@ -1,4 +1,5 @@
 ﻿using RestApi.Client.Authentication;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Authentication.ClientSide
@@ -12,12 +13,12 @@ namespace Authentication.ClientSide
 			_tokenClient = tokenClient;
 		}
 
-		public async Task<BearerAuthentication> ProvideAsync()
+		public async Task<BearerAuthentication> ProvideAsync(CancellationToken cancellationToken)
 		{
 			// please note that this is just a sample and no time has been invested for any best practices.
 			// do not use it as it is implemented here.
 
-			var token = await _tokenClient.RequestTokenAsync(new PasswordCredentialsTokenRequest("alice", "alice")).ConfigureAwait(false);
+			var token = await _tokenClient.RequestTokenAsync(new PasswordCredentialsTokenRequest("alice", "alice"), cancellationToken).ConfigureAwait(false);
 			return new BearerAuthentication(token?.AccessToken);
 		}
 	}
