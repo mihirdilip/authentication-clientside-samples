@@ -20,10 +20,10 @@ namespace Authentication.ClientSide
 
 			var token = await _tokenClient.RequestTokenAsync(new PasswordCredentialsTokenRequest("alice", "alice"), cancellationToken).ConfigureAwait(false);
 
-			var revoke = await _tokenClient.RequestTokenAsync(new RevokeTokenRequest(token.AccessToken), cancellationToken);
-			var revoke1 = await _tokenClient.RequestTokenAsync(new RevokeTokenRequest(token.RefreshToken, TokenTypes.RefreshToken), cancellationToken);
+			//var revoke = await _tokenClient.RequestTokenAsync(new RevokeTokenRequest(token.AccessToken), cancellationToken);
+			//var revoke1 = await _tokenClient.RequestTokenAsync(new RevokeTokenRequest(token.RefreshToken, TokenTypes.RefreshToken), cancellationToken);
 
-			var refreshedToken = await _tokenClient.RequestTokenAsync(new RefreshTokenRequest(token.RefreshToken), cancellationToken).ConfigureAwait(false);
+			//var refreshedToken = await _tokenClient.RequestTokenAsync(new RefreshTokenRequest(token.RefreshToken), cancellationToken).ConfigureAwait(false);
 
 
 

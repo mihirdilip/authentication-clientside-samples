@@ -21,7 +21,7 @@ namespace Authentication.ClientSide
 					TokenRevocationEndpointAddress = Constants.BaseUrl + "/id/connect/revocation",
 					ClientId = "console-client",
 					ClientSecret = "console-client-secret",
-					Scope = "api " + OidcConstants.StandardScopes.OfflineAccess
+					Scope = "api offline_access" 
 				});
 				builder.AddTokenProvider("testing", new PasswordCredentialsTokenProviderConfig
 				{
@@ -29,7 +29,7 @@ namespace Authentication.ClientSide
 					TokenRevocationEndpointAddress = Constants.BaseUrl + "/id/connect/revocation",
 					ClientId = "console-client",
 					ClientSecret = "console-client-secret",
-					Scope = "api " + OidcConstants.StandardScopes.OfflineAccess
+					Scope = "api offline_access" 
 				});
 			});
 
