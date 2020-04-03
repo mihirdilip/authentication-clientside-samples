@@ -50,7 +50,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.ClientSide.W
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{22ec8dc4-28e0-4252-96ad-dac386cf3704}*SharedItemsImports = 5
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{58bc8f90-7162-40e6-9412-277f3d1dfe9c}*SharedItemsImports = 5
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{71c72476-36e8-417e-a107-2064c096ee80}*SharedItemsImports = 5
 		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{78240dff-3c2d-4a13-8ab8-69abc868fd83}*SharedItemsImports = 13
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{7f6ff359-8627-452f-bbea-5b2b439cfb98}*SharedItemsImports = 5
+		Authentication.ClientSide.Shared\Authentication.ClientSide.Shared.projitems*{8ec2c115-77f4-4ef3-b393-c27763ca9180}*SharedItemsImports = 5
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local|Any CPU = Local|Any CPU
