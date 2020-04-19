@@ -16,8 +16,8 @@ namespace Authentication.ClientSide
 
 		private static async Task ConsoleTestRequestAsync(IRestClient client, string url, string message)
 		{
-			var response = await client.GetAsync<List<string>>(url).ConfigureAwait(false);
-
+			using var response = await client.GetAsync<List<string>>(url).ConfigureAwait(false);
+			
 			Console.WriteLine("================================================");
 			Console.WriteLine("URL: " + url);
 			Console.WriteLine(message);
